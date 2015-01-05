@@ -10,21 +10,21 @@ This plugin replaces those expressions with their resolved values. Only supports
 Usage
 -----
 
-   <build>
-      <plugins>
-        <plugin>
-          <groupId>${project.groupId}</groupId>
-          <artifactId>${project.artifactId}</artifactId>
-          <version>${cdversions.version}</version>
-          <executions>
-            <execution>
-              <goals>
-                <goal>generate-release-pom</goal>
-              </goals>
-            </execution>
-          </executions>
-        </plugin>
-      </plugins>
-    </build>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>${project.artifactId}</artifactId>
+            <version>${cdversions.version}</version>
+            <executions>
+              <execution>
+                <goals>
+                  <goal>generate-release-pom</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
 
 This will create a file `release.pom` right next to each pom file with the expressions replaced so you will also want to add this to your .gitignore file.
