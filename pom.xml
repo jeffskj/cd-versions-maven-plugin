@@ -8,7 +8,7 @@
 		<version>9</version>
 	</parent>
 
-	<groupId>io.github.cdversions</groupId>
+	<groupId>io.github.jeffskj.cdversions</groupId>
 	<artifactId>cd-versions-maven-plugin</artifactId>
 	<version>${revision}</version>
 	<packaging>maven-plugin</packaging>
