@@ -1,0 +1,1 @@
+mvn clean install && mvn clean deploy "-Prun-its,sonatype-oss-release,bootstrapped-release" "-Drevision=%1"
