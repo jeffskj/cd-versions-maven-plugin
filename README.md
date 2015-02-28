@@ -13,9 +13,9 @@ Usage
       <build>
         <plugins>
           <plugin>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>${project.artifactId}</artifactId>
-            <version>${cdversions.version}</version>
+            <groupId>io.github.jeffskj.cdversions</groupId>
+            <artifactId>cd-versions-maven-plugin</artifactId>
+            <version>0.1</version>
             <executions>
               <execution>
                 <goals>
